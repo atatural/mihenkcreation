@@ -10,3 +10,9 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo{
+  margin-top: 20px!important;
+}
+.tadilat{
+  width: 60% !important;
+}
