@@ -37,7 +37,7 @@ body, html {
     margin-top: 20px!important;
   }
   .tadilat{
-    width: 35% !important;
+    width: 30% !important;
   }
   .instagram{
     width: 20% !important;
@@ -56,20 +56,22 @@ body, html {
     margin-top: 20px!important;
   }
   .tadilat{
-    width: 55% !important;
-    margin-top: 7%;
+    width: 35% !important;
+    margin-top: 5%;
   }
   .instagram{
-    width: 30% !important;
+    width: 20% !important;
     margin-top: 3%;
   }
   .footer1{
-    width: 45% !important;
-    margin-top: 25%;
+    width: 30% !important;
+    margin-top: 30%;
     text-align: center;
     align-items: center;
   }
-
+  #icon{
+    width: 5%;
+  }
 }
 @media screen and (max-width: 992px){
   .logo{
@@ -85,11 +87,63 @@ body, html {
   }
   .footer1{
     width: 45% !important;
-    margin-top: 37%;
+    margin-top: 30%;
     text-align: center;
     align-items: center;
   }
+  #icon{
+    width: 7%;
+  }
 
 }
+@media screen and (max-width: 768px){
+  .logo{
+    margin-top: 20px!important;
+  }
+  .tadilat{
+    width: 50% !important;
+    margin-top: 7%;
+  }
+  .instagram{
+    width: 35% !important;
+    margin-top: 11%;
+  }
+  .footer1{
+    width: 45% !important;
+    margin-top: 60%;
+    text-align: center;
+    align-items: center;
+  }
+  #icon{
+    width: 10%;
+  }
 
+}
+@media screen and (max-width: 573px){
+  .logo{
+    margin-top: 20px!important;
+    width: 15%;
+  }
+  #logo{
+    width: 15%;
+  }
+  .tadilat{
+    width: 50% !important;
+    margin-top: 7%;
+  }
+  .instagram{
+    width: 35% !important;
+    margin-top: 11%;
+  }
+  .footer1{
+    width: 45% !important;
+    margin-top: 60%;
+    text-align: center;
+    align-items: center;
+  }
+  #icon{
+    width: 10%;
+  }
+
+}
   
