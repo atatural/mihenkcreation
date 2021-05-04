@@ -52,7 +52,7 @@
               </div>
               
           </div>
-          <audio id="mySong">
+          <audio id="mySong" autoplay="autoplay" loop="loop">
               <source src="/music/main.mp3" type="audio/mp3">
           </audio>
     </body>
@@ -60,7 +60,9 @@
     <script>
         var mySong = document.getElementById("mySong");
         var icon = document.getElementById("icon");
-        mySong.play();
+        mySong.autoplay = true;
+        
+        
         icon.onclick = function(){
             if(mySong.paused){
                 mySong.play()
